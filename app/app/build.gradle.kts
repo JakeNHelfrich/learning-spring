@@ -10,6 +10,8 @@ repositories {
 
 dependencies {
     implementation(libs.guava)
+    implementation(libs.spring.core)
+    implementation(libs.spring.context)
 
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testImplementation(libs.junit.jupiter.engine)

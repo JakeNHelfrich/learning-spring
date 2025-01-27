@@ -1,10 +1,13 @@
 [versions]
 guava = "33.2.1-jre"
 junit-jupiter-engine = "5.10.3"
+spring-framework = "6.2.2"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit-jupiter-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit-jupiter-engine" }
+spring-core = { module = "org.springframework:spring-core", version.ref = "spring-framework" }
+spring-context = { module = "org.springframework:spring-context", version.ref = "spring-framework" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.0.0" }
